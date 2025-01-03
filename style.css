@@ -1,0 +1,172 @@
+``css
+/* Universal reset for margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Added box-sizing to avoid layout issues */
+}
+
+/* Main section with gradient and background image */
+main {
+  width: 100%; /* Full width */
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%), url('x.png'); /* Fixed gradient and image syntax */
+
+background-position: center;
+  background-size: cover; /* Ensure the background image covers the entire element */
+  height: 109vh; /* 109% of the viewport height */
+}
+
+body {
+  background: url('./d.jpg') no-repeat center center
+}
+body {
+  background-size: contain;
+  height: 100vh;
+}
+body {
+  background-size: cover;
+}
+
+/* Navbar styling */
+.navbar {
+  width: 50%; /* Use 100% width for responsive design */
+  max-width: 500px; /* Max width for large screens */
+  height: 75px;
+  margin: contain; /* Center the navbar */
+  display: contain; /* Use flexbox for layout */
+  align-items: center; /* Vertically center the items */
+  justify-content: space-between; /* Space out the items in the navbar */
+}
+
+/* Icon styling */
+.icon {
+  width: 1px;
+  height: 100px;
+  float: left; /* Keep this if you prefer the float method, but consider using flexbox for more control */
+}
+
+/* Logo styling */
+.logo {
+  color: #ff7200;
+  font-size: 20px;
+  font-family: Arial;
+  padding-left: 25px;
+  float: left;
+  padding-top: 10px;
+}
+
+.menu{
+    width: 200px;
+    float: left;
+    height: 100px;
+    }
+    
+ ul{
+  display: center;
+  justify-content: center;
+  align-items: center;
+ }
+
+
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-family: Arial;
+  font-size: bold;
+  transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+  color: #ff7200;
+}
+.search{
+  width: 33px;
+  float: left;
+  margin-left: 270px;
+  
+}
+
+.srch{
+  float: "Times New Roman";
+  width: 100px;
+  height: 10px;
+  background: transparent;
+  border: 1px solid #ff7222;
+  margin-top: 13px;
+  color: #ffff;
+  font-size: 16px;
+  float: left;
+  padding: 10px;
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 5px;
+  
+}
+
+.btn{
+  width: 100;
+  height: 40px;
+  background: #ff7200;
+  border: solid #ff7200;
+  margin-top: 13px;
+  color: #fff;
+  font-size: 15px;
+  border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-radius: 15px;
+}
+.btn:focus{
+  outline: none;
+}
+srch:focus{
+  outline: none;
+}
+
+.content{
+  width: 300px;
+  height: auto;
+  margin: auto;
+  color: #fff;
+  position: #relative;
+}
+.content .par{
+  padding-left: 20px;
+  padding-bottom: 25px;
+  font-family: Arial;
+  letter-spacing: 1.2px;
+  line-height: 20px;
+}
+.content h1{
+  font-family: Times New Roman;
+  font-size: 20px;
+  padding-left: 20px;
+  margin-top: 15%;
+
+}
+
+.cn{
+  width: 160px;
+  height: 30px;
+  background: #ff7200;
+  border: none;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  font-size: 10px;
+  border-radius: 10px;
+  
+}
+
+.cn a{
+  text-decoration: none;
+  color: #000;
+  transition: .3s ease;
+}
+.cn:hover{
+  background-color: #fff;
+  
+}
+
+.content span{
+  color: #ff7222;
+  font-size: 20px;
+}
+`
